@@ -16,4 +16,5 @@ Functionality:
 6. Use the up and down arrows to rotate rgb (ex: rgb of: 50,75,100 will turn to 100,50,75 after an up arrow)
 
 See demo below:
+
 ![Alt Text](photoManip.gif)
