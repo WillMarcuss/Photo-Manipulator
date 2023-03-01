@@ -74,4 +74,6 @@ while not exit_flag:
 						r, g, b, _ = Frame.get_at((i, j))
 						Frame.set_at(((i, j)), (g,b,r))
 				pygame.display.update()
+		elif pygame.key.get_pressed()[pygame.K_s]:
+			pygame.image.save(Frame,"Saved_Frame.jpg")
 			
