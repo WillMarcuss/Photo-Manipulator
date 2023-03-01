@@ -62,4 +62,16 @@ while not exit_flag:
 						Frame.set_at(((i, j)), (255-r,255-g,255-b))
 				pygame.display.update()
 			count+=1
+		elif pygame.key.get_pressed()[pygame.K_UP]:
+				for i in range(0,wid,1):
+					for j in range(0,hgt,1):
+						r, g, b, _ = Frame.get_at((i, j))
+						Frame.set_at(((i, j)), (b,r,g))
+				pygame.display.update()
+		elif pygame.key.get_pressed()[pygame.K_DOWN]:
+				for i in range(0,wid,1):
+					for j in range(0,hgt,1):
+						r, g, b, _ = Frame.get_at((i, j))
+						Frame.set_at(((i, j)), (g,b,r))
+				pygame.display.update()
 			
