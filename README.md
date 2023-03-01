@@ -15,5 +15,5 @@ Functionality:
 5. Click the 'a' key to get the negative of the whole image (except if you have made any previous modification, it will be the negative of the whole image except your selection)
 6. Use the up and down arrows to rotate rgb (ex: rgb of: 50,75,100 will turn to 100,50,75 after an up arrow)
 
-
+See demo below:
 ![Alt Text](photoManip.gif)
